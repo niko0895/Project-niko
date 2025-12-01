@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Jurusan Teknik Komputer dan Jaringan</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #102040 60%, #1abc9c);
+      color: #eee;
+    }
+    header {
+      background: #101820ee;
+      padding: 40px 0 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin: 0;
+      letter-spacing: 2px;
+      color: #1abc9c;
+    }
+    header p {
+      font-size: 1.25rem;
+      margin-top: 10px;
+      color: #eee;
+    }
+    nav {
+      background: #183650;
+      display: flex;
+      justify-content: center;
+      padding: 12px 0;
+    }
+    nav a {
+      color: #1abc9c;
+      text-decoration: none;
+      margin: 0 18px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      transition: color .2s;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    .content {
+      max-width: 960px;
+      margin: 30px auto;
+      background: rgba(16, 32, 64,0.98);
+      padding: 30px;
+      border-radius: 14px;
+      box-shadow: 0 6px 30px #0004;
+    }
+    .top-section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 36px;
+      margin-bottom: 30px;
+    }
+    .top-section img {
+      max-width: 270px;
+      border-radius: 10px;
+      box-shadow: 0 4px 24px #1abc9c44;
+      margin-right: 10px;
+      margin-bottom: 6px;
+    }
+    .top-section .desc {
+      flex: 1;
+    }
+    h2 {
+      color: #1abc9c;
+      border-bottom: 2px solid #1abc9c44;
+      padding-bottom: 4px;
+      margin-top: 24px;
+      font-size: 1.45rem;
+    }
+    ul {
+      padding-left: 22px;
+      line-height: 1.8;
+    }
+    .cards {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .card {
+      background: #1abc9c22;
+      border-radius: 10px;
+      flex: 1 1 260px;
+      padding: 20px;
+      box-shadow: 0 2px 18px #1abc9c22;
+      min-width: 220px;
+      transition: transform .2s;
+    }
+    .card:hover {
+      transform: translateY(-5px) scale(1.03);
+      background: #1abc9c33;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #fff;
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+    }
+    .card p {
+      color: #eee;
+      font-size: 0.99rem;
+    }
+    footer {
+      background: #101820cc;
+      text-align: center;
+      padding: 20px 0 14px;
+      color: #aaa;
+      font-size: 1rem;
+      margin-top: 40px;
+    }
+    @media (max-width:700px){
+      .top-section {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .top-section img {
+        margin: 0 auto 12px;
+      }
+      .cards {
+        flex-direction: column;
+        gap: 14px;
+      }
+      .content {
+        padding: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Teknik Komputer & Jaringan (TKJ)</h1>
+    <p>Menjadi Ahli IT, Jaringan & Teknologi Masa Depan!</p>
+  </header>
+  <nav>
+    <a href="#profil">Profil</a>
+    <a href="#kompetensi">Kompetensi</a>
+    <a href="#prospek">Prospek Kerja</a>
+    <a href="#kegiatan">Kegiatan</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+  <div class="content">
+    <section id="profil" class="top-section">
+      <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=500&q=80" alt="Lab TKJ">
+      <div class="desc">
+        <h2>Profil Jurusan TKJ</h2>
+        <p>
+          Jurusan Teknik Komputer dan Jaringan (TKJ) adalah bidang keahlian yang mempelajari tentang perangkat keras dan lunak komputer, jaringan komputer, serta penerapan teknologi informasi. Di sini, siswa dibekali keterampilan instalasi, perawatan, hingga troubleshooting perangkat jaringan dan komputer, siap menghadapi era digital!
+        </p>
+      </div>
+    </section>
+    <section id="kompetensi">
+      <h2>Kompetensi Keahlian TKJ</h2>
+      <ul>
+        <li>Merakit & menginstalasi komputer dan server</li>
+        <li>Konfigurasi jaringan lokal (LAN), internet (WAN), dan wireless</li>
+        <li>Instalasi dan manajemen sistem operasi Linux & Windows</li>
+        <li>Pembuatan & manajemen website sederhana</li>
+        <li>Keamanan jaringan dan troubleshooting</li>
+        <li>Virtualisasi, Cloud Computing dasar</li>
+      </ul>
+    </section>
+    <section id="prospek">
+      <h2>Prospek Kerja Lulusan TKJ</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Network Administrator</h3>
+          <p>Mengelola, memantau, dan menjaga keamanan serta performa jaringan komputer perusahaan.</p>
+        </div>
+        <div class="card">
+          <h3>IT Support</h3>
+          <p>Memberikan solusi & perbaikan untuk masalah komputer dan jaringan di perusahaan atau sekolah.</p>
+        </div>
+        <div class="card">
+          <h3>Teknisi Komputer & Jaringan</h3>
+          <p>Merakit, memperbaiki, dan memasang perangkat komputer ataupun jaringan.</p>
+        </div>
+        <div class="card">
+          <h3>Programmer Junior</h3>
+          <p>Membuat aplikasi sederhana, website, atau otomasi perangkat.</p>
+        </div>
+        <div class="card">
+          <h3>Wirausaha IT</h3>
+          <p>Membuka jasa service, ins
